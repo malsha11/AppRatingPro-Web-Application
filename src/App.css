@@ -1,38 +1,70 @@
-.App {
+/* App.css */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  width: '100%';
+}
+
+.titleBar {
+  background-color: #a29bfe;
+  position: absolute;
+  top:0px;
+  left: 0px;
+  right: 0px;
+  height: 100px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.formContainer{
+  position: absolute;
+  top:150px;
+  bottom:100px;
+  width: 500px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.formSubContainer {
+}
+.inputNumber{
+  display: grid;
+  grid-template-columns: 300px 300px;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.label {
+}
+.radioButtonContainer{
+ display: grid;
+ grid-template-columns: 200px 200px 200px;
+}
+h1 {
+  color: #333;
+}
+
+input[type='file'] {
+  margin-bottom: 10px;
+}
+
+input[type='number'],
+input[type='text'] {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.radioButtonContainer {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 10px;
 }
