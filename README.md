@@ -14,9 +14,10 @@ This repository contains code and resources for a research project aimed at pred
 6. [Web Application](#web-application)
 7. [Logical Design](#logical-design)
 8. [Physical Design](#physical-design)
-9. [Usage](#usage)
-10. [Contributing](#contributing)
-11. [License](#license)
+9. [Web Application Demo](#web-application-demo)
+10. [Usage](#usage)
+11. [Contributing](#contributing)
+12. [License](#license)
 
 ## Problem Statement
 
@@ -53,21 +54,24 @@ A web application is developed using React, Flask, JavaScript, and CSS to provid
 
 ## Logical Design
 
-![Logical Design]
+
 ![image](https://github.com/malsha11/AppRatingPro-Web-Application/assets/84215169/7e85d6b0-1c0a-43a4-b906-f35e46323951)
 
 
 
-Describe your logical design here, such as the architecture of your prediction model and data flow.
-
 ## Physical Design
 
-![Physical Design]
 ![image](https://github.com/malsha11/AppRatingPro-Web-Application/assets/84215169/15dd8938-26e5-49bc-8968-1b1a714675ff)
 
 
+## Web Application Demo
 
-Explain your physical design here, including deployment architecture and hardware requirements.
+
+https://github.com/malsha11/AppRatingPro-Web-Application/assets/84215169/57e8784b-9683-4eb4-8038-051bccbd8c6a
+
+![image](https://github.com/malsha11/AppRatingPro-Web-Application/assets/84215169/e41bbab1-50d9-4f81-ba04-a6bcae38eb92)
+
+
 
 ## Usage
 
