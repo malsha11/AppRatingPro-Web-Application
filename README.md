@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Machine Learning-Driven Forecasting of Mobile App Ratings pre-launch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This repository contains code and resources for a research project aimed at predicting the success of a mobile app before its launch. The project leverages machine learning techniques, including convolutional neural networks (CNNs) and random forests (RF), to analyze app UIs and characteristics to predict app ratings.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+1. [Problem Statement](#problem-statement)
+2. [Proposed Solution](#proposed-solution)
+3. [Technologies Used](#technologies-used)
+4. [Data Collection and Preprocessing](#data-collection-and-preprocessing)
+5. [Model Development and Evaluation](#model-development-and-evaluation)
+6. [Web Application](#web-application)
+7. [Usage](#usage)
+8. [Contributing](#contributing)
+9. [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Problem Statement
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The life cycle of a mobile app is complex, with app popularity fluctuating before and after release. The challenge lies in predicting app success accurately prior to launch, as 80% of apps get abandoned after initial use. This research aims to address this challenge by predicting app ratings based on UIs and app characteristics.
 
-### `npm test`
+## Proposed Solution
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The proposed solution integrates UIs and app characteristics using machine learning algorithms such as CNNs and RF. It follows a structured process including data collection, preprocessing, model selection, training, and evaluation. A web application is also implemented to provide an interactive interface for accessing prediction models.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Python
+- TensorFlow
+- Keras
+- Scikit-learn
+- GooglePlayScraper
+- Flask
+- React
+- JavaScript
+- CSS
+- Anaconda
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Data Collection and Preprocessing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Data is collected using the Google Play Scraper API, including UI screenshots and app attributes. The collected data undergoes preprocessing steps such as resizing images, feature selection, and text preprocessing.
 
-### `npm run eject`
+## Model Development and Evaluation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+CNNs and RF are used to build regression models for predicting app ratings. Model performance is evaluated using metrics such as mean squared error and mean absolute error.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Web Application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+A web application is developed using React, Flask, JavaScript, and CSS to provide an interactive user interface for accessing prediction models.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+To use the project:
+1. Clone the repository.
+2. Install the necessary dependencies.
+3. Run the web application using `flask run`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
