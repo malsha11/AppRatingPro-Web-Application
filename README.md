@@ -12,12 +12,10 @@ This repository contains code and resources for a research project aimed at pred
 4. [Data Collection and Preprocessing](#data-collection-and-preprocessing)
 5. [Model Development and Evaluation](#model-development-and-evaluation)
 6. [Web Application](#web-application)
-7. [Logical Design](#logical-design)
 8. [Physical Design](#physical-design)
 9. [Web Application Demo](#web-application-demo)
 10. [Usage](#usage)
-11. [Contributing](#contributing)
-12. [License](#license)
+
 
 ## Problem Statement
 
@@ -52,13 +50,6 @@ CNNs and RF are used to build regression models for predicting app ratings. Mode
 
 A web application is developed using React, Flask, JavaScript, and CSS to provide an interactive user interface for accessing prediction models.
 
-## Logical Design
-
-
-![image](https://github.com/malsha11/AppRatingPro-Web-Application/assets/84215169/7e85d6b0-1c0a-43a4-b906-f35e46323951)
-
-
-
 ## Physical Design
 
 ![image](https://github.com/malsha11/AppRatingPro-Web-Application/assets/84215169/15dd8938-26e5-49bc-8968-1b1a714675ff)
@@ -80,10 +71,3 @@ To use the project:
 2. Install the necessary dependencies.
 3. Run the web application using `flask run`.
 
-## Contributing
-
-Contributions to the project are welcome. Please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
